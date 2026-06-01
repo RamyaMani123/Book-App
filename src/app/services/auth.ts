@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
 })
 export class AuthService {
 
-  private baseUrl = 'http://localhost:5110';
+  private apiUrl = 'https://book-api-backend-bg5n.onrender.com/api/auth';
 
   constructor(
     private http: HttpClient,
@@ -16,12 +16,12 @@ export class AuthService {
 
   // LOGIN API + STORE USER
   login(data: any) {
-    return this.http.post<any>(`${this.baseUrl}/api/auth/login`, data);
+    return this.http.post<any>(`${this.apiUrl}/api/auth/login`, data);
   }
 
   // REGISTER API
   register(data: any) {
-    return this.http.post<any>(`${this.baseUrl}/api/auth/register`, data);
+    return this.http.post<any>(`${this.apiUrl}/api/auth/register`, data);
   }
 
   // SAVE LOGIN DATA

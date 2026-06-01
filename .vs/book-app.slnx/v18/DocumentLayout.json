@@ -118,8 +118,7 @@
               "RelativeToolTip": "angular.json",
               "ViewState": "AgIAAEIAAAAAAAAAAAAIwFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-22T09:13:11.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T09:13:11.227Z"
             },
             {
               "$type": "Document",
@@ -131,8 +130,7 @@
               "RelativeToolTip": "src\\app\\pages\\home\\home.component.ts",
               "ViewState": "AgIAAAsAAAAAAAAAAAAzwA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-05-21T00:03:22.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T00:03:22.083Z"
             },
             {
               "$type": "Document",
@@ -144,8 +142,7 @@
               "RelativeToolTip": "src\\app\\pages\\home\\home.component.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-21T00:02:21.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T00:02:21.647Z"
             },
             {
               "$type": "Document",
@@ -170,8 +167,7 @@
               "RelativeToolTip": "src\\app\\shared\\navbar\\navbar.component.ts",
               "ViewState": "AgIAABAAAAAAAAAAAAAYwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-05-20T23:42:55.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T23:42:55.365Z"
             },
             {
               "$type": "Document",
@@ -183,8 +179,7 @@
               "RelativeToolTip": "src\\app\\pages\\home\\home.component.spec.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-05-22T09:07:16.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T09:07:16.774Z"
             },
             {
               "$type": "Document",
@@ -196,8 +191,7 @@
               "RelativeToolTip": "src\\app\\pages\\home\\home.component.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-22T09:07:02.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T09:07:02.43Z"
             },
             {
               "$type": "Document",
@@ -209,8 +203,7 @@
               "RelativeToolTip": "src\\app\\app.routes.ts",
               "ViewState": "AgIAAA4AAAAAAAAAAAAYwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-05-20T21:52:03.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T21:52:03.869Z"
             },
             {
               "$type": "Document",
@@ -222,8 +215,7 @@
               "RelativeToolTip": "src\\app\\pages\\login\\login.component.html",
               "ViewState": "AgIAAAMAAAAAAAAAAAAwwBMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-20T23:23:11.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T23:23:11.328Z"
             },
             {
               "$type": "Document",
@@ -235,8 +227,7 @@
               "RelativeToolTip": "src\\app\\pages\\login\\login.component.ts",
               "ViewState": "AgIAAAIAAAAAAAAAAAAYwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-05-20T23:56:31.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T23:56:31.067Z"
             },
             {
               "$type": "Document",
@@ -248,8 +239,7 @@
               "RelativeToolTip": "src\\app\\pages\\books\\books.component.ts",
               "ViewState": "AgIAAAUAAAAAAAAAAAAYwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-05-20T23:45:16.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T23:45:16.08Z"
             },
             {
               "$type": "Document",
@@ -261,8 +251,7 @@
               "RelativeToolTip": "src\\app\\pages\\books\\books.component.html",
               "ViewState": "AgIAABgAAAAAAAAAAAAwwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-20T23:19:05.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T23:19:05.535Z"
             },
             {
               "$type": "Document",
@@ -274,8 +263,7 @@
               "RelativeToolTip": "src\\app\\app.component.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-05-20T23:06:06.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T23:06:06.958Z"
             },
             {
               "$type": "Document",
@@ -287,8 +275,7 @@
               "RelativeToolTip": "src\\app\\pages\\quotes\\quotes.component.ts",
               "ViewState": "AgIAAAkAAAAAAAAAAAAYwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-05-20T23:55:11.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T23:55:11.401Z"
             },
             {
               "$type": "Document",
@@ -300,8 +287,7 @@
               "RelativeToolTip": "src\\app\\app.component.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-20T22:57:29.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T22:57:29.06Z"
             },
             {
               "$type": "Document",
@@ -313,8 +299,7 @@
               "RelativeToolTip": "src\\app\\pages\\quotes\\quotes.component.html",
               "ViewState": "AgIAAA4AAAAAAAAAAAAwwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-05-20T23:21:07.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T23:21:07.487Z"
             },
             {
               "$type": "Document",
@@ -326,8 +311,7 @@
               "RelativeToolTip": "src\\app\\shared\\navbar\\navbar.component.spec.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-05-20T23:42:44.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T23:42:44.551Z"
             },
             {
               "$type": "Document",
@@ -339,8 +323,7 @@
               "RelativeToolTip": "src\\app\\shared\\navbar\\navbar.component.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-20T23:42:14.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T23:42:14.086Z"
             },
             {
               "$type": "Document",
@@ -352,8 +335,7 @@
               "RelativeToolTip": "src\\styles.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-20T22:58:05.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T22:58:05.119Z"
             },
             {
               "$type": "Document",
@@ -365,8 +347,7 @@
               "RelativeToolTip": "src\\main.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-05-20T22:02:36.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T22:02:36.084Z"
             },
             {
               "$type": "Document",
@@ -378,8 +359,7 @@
               "RelativeToolTip": "src\\app\\guards\\auth-guard.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-05-20T22:00:28.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T22:00:28.212Z"
             },
             {
               "$type": "Document",
@@ -391,8 +371,7 @@
               "RelativeToolTip": "src\\app\\app.config.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-05-20T21:49:57.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T21:49:57.994Z"
             },
             {
               "$type": "Document",
@@ -404,8 +383,7 @@
               "RelativeToolTip": "src\\app\\interceptors\\auth-interceptor.ts",
               "ViewState": "AgIAAAUAAAAAAAAAAAAYwA8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-05-20T21:49:28.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T21:49:28.386Z"
             },
             {
               "$type": "Document",
@@ -417,8 +395,7 @@
               "RelativeToolTip": "src\\app\\services\\auth.ts",
               "ViewState": "AgIAAAEAAAAAAAAAAAAYwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-05-20T21:47:13.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T21:47:13.994Z"
             }
           ]
         }

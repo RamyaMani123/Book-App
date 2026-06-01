@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class QuoteService {
 
-  private apiUrl = 'http://localhost:5110/api/quotes';
+  private apiUrl = 'https://book-api-backend-bg5n.onrender.com/api/quotes';
 
   constructor(private http: HttpClient) { }
 
