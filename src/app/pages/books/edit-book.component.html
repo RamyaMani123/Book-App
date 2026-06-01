@@ -1,0 +1,52 @@
+<div class="container mt-4">
+
+  <h2 class="mb-3">Edit Book</h2>
+
+  <form (ngSubmit)="updateBook()">
+
+    <table class="table table-bordered align-middle">
+
+      <tbody>
+
+        <!-- TITLE -->
+        <tr>
+          <th style="width: 120px;">Title</th>
+          <td>
+            <input class="form-control"
+                   [(ngModel)]="book.title"
+                   name="title"
+                   placeholder="Enter Title">
+          </td>
+        </tr>
+
+        <!-- AUTHOR -->
+        <tr>
+          <th>Author</th>
+          <td>
+            <input class="form-control"
+                   [(ngModel)]="book.author"
+                   name="author"
+                   placeholder="Enter Author">
+          </td>
+        </tr>
+
+        <!-- BUTTON -->
+        <tr>
+          <td colspan="2" class="text-center">
+
+            <button type="submit"
+                    class="btn btn-success px-4">
+
+              Update Book
+            </button>
+
+          </td>
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </form>
+
+</div>

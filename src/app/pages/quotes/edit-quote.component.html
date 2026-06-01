@@ -1,0 +1,43 @@
+<div class="container mt-4">
+
+  <h2 class="mb-3">Edit Quote</h2>
+
+  <form (ngSubmit)="updateQuote()">
+
+    <table class="table table-bordered align-middle">
+
+      <tbody>
+
+        <!-- QUOTE TEXT -->
+        <tr>
+          <th style="width: 120px;">Quote</th>
+          <td>
+            <input class="form-control"
+                   [(ngModel)]="quote.text"
+                   name="text"
+                   placeholder="Enter Quote">
+          </td>
+        </tr>
+
+        
+
+        <!-- BUTTON -->
+        <tr>
+          <td colspan="2" class="text-center">
+
+            <button type="submit"
+                    class="btn btn-success px-4">
+
+              Update Quote
+            </button>
+
+          </td>
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </form>
+  
+</div>

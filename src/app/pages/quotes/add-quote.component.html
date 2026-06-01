@@ -1,0 +1,60 @@
+<div class="container mt-4">
+
+  <div class="card shadow-sm">
+
+    <div class="card-body">
+
+      <h2 class="mb-3">
+        Add Quote
+      </h2>
+
+      <form (ngSubmit)="addQuote()" #quoteForm="ngForm">
+
+        <!-- QUOTE INPUT -->
+        <div class="mb-3">
+
+          <label class="form-label"></label>
+
+          <input type="text"
+                 class="form-control"
+                 [(ngModel)]="quote.text"
+                 name="text"
+                 placeholder="Enter your quote"
+                 required
+                 #text="ngModel">
+
+          <!-- VALIDATION MESSAGE -->
+          <div class="text-danger mt-1"
+               *ngIf="text.invalid && text.touched">
+            Please enter a quote
+          </div>
+
+        </div>
+
+        <!-- BUTTON -->
+        <div class="text-center">
+
+          <button type="submit"
+                  class="btn btn-primary px-4"
+                  [disabled]="quoteForm.invalid || isSubmitting">
+
+            <!-- Loading state -->
+            <ng-container *ngIf="!isSubmitting; else loading">
+              Add Quote
+            </ng-container>
+
+            <ng-template #loading>
+              Adding...
+            </ng-template>
+
+          </button>
+
+        </div>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,68 @@
+<div class="container mt-4">
+
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h2 class="page-title">
+      Book List
+    </h2>
+
+    <button *ngIf="isLoggedIn"
+            class="btn btn-primary"
+            routerLink="/books/add">
+      Add Book
+    </button>
+  </div>
+
+  <table class="table table-bordered table-sm text-center align-middle">
+
+    <thead class="table-dark">
+      <tr>
+        <th style="width: 60px;">S.No</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Publication Date</th>
+        <th *ngIf="isLoggedIn" style="width: 140px;">Actions</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr *ngFor="let b of books; let i = index">
+
+        <!-- S.NO -->
+        <td>{{ i + 1 }}</td>
+
+        <!-- TITLE (CENTERED) -->
+        <td class="text-start">
+          {{ b.title }}
+        </td>
+
+        <!-- AUTHOR (CENTERED) -->
+        <td class="text-start">
+          {{ b.author }}
+        </td>
+        <td class="text-start">
+          {{ b.publicationDate | date:'yyyy-MM-dd' }}
+        </td>
+
+        <!-- ACTIONS (NO EXTRA SPACE) -->
+        <td *ngIf="isLoggedIn" class="text-center p-1">
+
+          <button class="btn btn-warning btn-sm me-1"
+                  (click)="editBook(b.id)">
+            Edit
+          </button>
+
+          <button class="btn btn-danger btn-sm"
+                  (click)="deleteBook(b.id)">
+            Delete
+          </button>
+
+        </td>
+
+      </tr>
+
+    </tbody>
+
+  </table>
+
+</div>

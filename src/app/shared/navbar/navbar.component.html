@@ -1,0 +1,104 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+
+  <!-- LOGO -->
+  <a class="navbar-brand fw-bold" routerLink="/">
+    <i class="fas fa-book"></i> Home
+  </a>
+
+  <!-- MOBILE TOGGLE -->
+  <button class="navbar-toggler"
+          type="button"
+          (click)="toggleMenu()">
+
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- NAVBAR -->
+  <div class="navbar-collapse"
+       [ngClass]="{ 'show': isMenuOpen }">
+
+    <!-- LEFT MENU -->
+    <ul class="navbar-nav me-auto">
+
+      <!-- BOOKS -->
+      <li class="nav-item">
+        <a class="nav-link"
+           routerLink="/books"
+           (click)="isMenuOpen=false">
+
+          <i class="fas fa-book"></i> Book List
+        </a>
+      </li>
+
+      <!-- SHOW MY QUOTES ONLY AFTER LOGIN -->
+      <li class="nav-item" *ngIf="isLoggedIn">
+        <a class="nav-link"
+           routerLink="/quotes"
+           (click)="isMenuOpen=false">
+
+          <i class="fas fa-quote-left"></i> My Quotes
+        </a>
+      </li>
+
+    </ul>
+
+    <!-- RIGHT MENU -->
+    <ul class="navbar-nav align-items-center gap-2">
+
+      <!-- DARK MODE -->
+      <li class="nav-item">
+        <button class="btn btn-outline-light"
+                (click)="toggleDarkMode()">
+
+          <i [class]="isDarkMode ? 'fas fa-moon' : 'fas fa-sun'"></i>
+
+          <span class="ms-2">
+            {{ isDarkMode ? 'Dark Mode' : 'Light Mode' }}
+          </span>
+
+        </button>
+      </li>
+
+      <!-- BEFORE LOGIN -->
+      <ng-container *ngIf="!isLoggedIn">
+
+        <li class="nav-item">
+          <button routerLink="/register"
+                  class="btn btn-outline-light">
+
+            Register
+          </button>
+        </li>
+
+        <li class="nav-item">
+          <button routerLink="/login"
+                  class="btn btn-outline-light">
+
+            Login
+          </button>
+        </li>
+
+      </ng-container>
+
+      <!-- AFTER LOGIN -->
+      <ng-container *ngIf="isLoggedIn">
+
+        <li class="nav-item text-white">
+          Welcome {{ username }}
+        </li>
+
+        <li class="nav-item">
+          <button class="btn btn-danger"
+                  (click)="logout()">
+
+            Logout
+          </button>
+        </li>
+
+      </ng-container>
+
+    </ul>
+
+  </div>
+
+</nav>

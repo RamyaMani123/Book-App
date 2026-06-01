@@ -1,0 +1,71 @@
+<div class="container mt-4">
+
+  <h2 class="mb-3">Add Book</h2>
+
+  <form (ngSubmit)="addBook()" #bookForm="ngForm">
+
+    <table class="table table-bordered align-middle">
+
+      <tbody>
+
+        <!-- TITLE -->
+        <tr>
+          <th style="width: 120px;">Title</th>
+          <td>
+
+            <input class="form-control"
+                   [(ngModel)]="book.title"
+                   name="title"
+                   placeholder="Enter Title"
+                   required
+                   #title="ngModel">
+
+            <div class="text-danger mt-1"
+                 *ngIf="title.invalid && title.touched">
+              Title is required
+            </div>
+
+          </td>
+        </tr>
+
+        <!-- AUTHOR -->
+        <tr>
+          <th>Author</th>
+          <td>
+
+            <input class="form-control"
+                   [(ngModel)]="book.author"
+                   name="author"
+                   placeholder="Enter Author"
+                   required
+                   #author="ngModel">
+
+            <div class="text-danger mt-1"
+                 *ngIf="author.invalid && author.touched">
+              Author is required
+            </div>
+
+          </td>
+        </tr>
+
+        <!-- BUTTON -->
+        <tr>
+          <td colspan="2" class="text-center">
+
+            <button type="submit"
+                    class="btn btn-primary px-4"
+                    [disabled]="bookForm.invalid">
+
+              Add Book
+            </button>
+
+          </td>
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </form>
+
+</div>

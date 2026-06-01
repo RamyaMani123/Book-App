@@ -1,3 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
 
+body {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/BGimage.jpeg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+}
 @import 'tailwindcss';
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+  body.dark-mode .card {
+    background-color: #1f1f1f;
+    color: white;
+  }
+
+  body.dark-mode .navbar {
+    background-color: black !important;
+  }
+.page-title {
+  color: white; /* light mode default */
+  transition: all 0.3s ease;
+}
