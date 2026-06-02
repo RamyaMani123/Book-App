@@ -13,7 +13,7 @@ import { QuoteService } from '../../services/quote';
 export class AddQuoteComponent {
 
   quote = {
-    text: ''
+    text: '',
   };
 
   isSubmitting = false; // ⭐ prevent double click
@@ -36,8 +36,7 @@ export class AddQuoteComponent {
     this.isSubmitting = true;
 
     const newQuote = {
-      text: trimmedText,
-      isDefault: false
+      text: trimmedText 
     };
 
     this.service.addQuote(newQuote).subscribe({
@@ -45,12 +44,10 @@ export class AddQuoteComponent {
 
         alert('Quote added successfully');
 
-        // reset form
         this.quote.text = '';
 
         this.isSubmitting = false;
 
-        // navigate back
         this.router.navigateByUrl('/quotes');
       },
       error: (err) => {

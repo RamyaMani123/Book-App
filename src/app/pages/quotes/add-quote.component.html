@@ -15,13 +15,18 @@
 
           <label class="form-label"></label>
 
-          <input type="text"
-                 class="form-control"
-                 [(ngModel)]="quote.text"
-                 name="text"
-                 placeholder="Enter your quote"
-                 required
-                 #text="ngModel">
+          <label for="quoteText" class="form-label">Quote</label>
+
+<input
+  id="quoteText"
+  type="text"
+  class="form-control"
+  [(ngModel)]="quote.text"
+  name="text"
+  placeholder="Enter your quote"
+  required
+  #text="ngModel"
+/>
 
           <!-- VALIDATION MESSAGE -->
           <div class="text-danger mt-1"

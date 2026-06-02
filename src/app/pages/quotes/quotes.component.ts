@@ -2,7 +2,7 @@ import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Router } from '@angular/router';
 import { QuoteService } from '../../services/quote';
-
+import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'app-quotes',
   standalone: true,
