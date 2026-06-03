@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-login',
@@ -23,23 +24,21 @@ export class LoginComponent {
     private router: Router
   ) { }
 
-
   login() {
-
     this.http.post<any>(
-      'http://localhost:5110/api/auth/login',
+      `${environment.apiUrl}/auth/login`,
       this.user
     ).subscribe({
 
-      next: (response) => {
+      next: (response: any) => {
 
         console.log(response);
 
-        // ✅ SAVE TOKEN
+        // save token
         localStorage.setItem('token', response.token);
 
-        // ✅ SAVE USERNAME (from backend OR fallback)
-        localStorage.setItem('username', response.username || this.user.username);
+        // backend only returns token → username fallback is correct
+        localStorage.setItem('username', this.user.username);
 
         alert('Login Successful');
 
