@@ -15,7 +15,7 @@
 
           <label class="form-label"></label>
 
-          <label for="quoteText" class="form-label">Quote</label>
+          <label for="quoteText" class="form-label"></label>
 
 <input
   id="quoteText"
@@ -41,19 +41,12 @@
 
           <button type="submit"
                   class="btn btn-primary px-4"
-                  [disabled]="quoteForm.invalid || isSubmitting">
+                  [disabled]="quoteForm.invalid">
 
-            <!-- Loading state -->
-            <ng-container *ngIf="!isSubmitting; else loading">
-              Add Quote
-            </ng-container>
-
-            <ng-template #loading>
-              Adding...
-            </ng-template>
-
+            Add Quote
           </button>
-
+         
+            
         </div>
 
       </form>

@@ -1,4 +1,4 @@
 export const environment = {
-  production: false,
-  apiUrl: 'http://localhost:5110/api'
+  production: true,
+  apiUrl: 'https://book-api-backend-bg5n.onrender.com/api'
 };

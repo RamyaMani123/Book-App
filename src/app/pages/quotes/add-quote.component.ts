@@ -12,11 +12,10 @@ import { QuoteService } from '../../services/quote';
 })
 export class AddQuoteComponent {
 
-  quote = {
+  quote= {
     text: '',
+   
   };
-
-  isSubmitting = false; // ⭐ prevent double click
 
   constructor(
     private service: QuoteService,
@@ -25,42 +24,17 @@ export class AddQuoteComponent {
 
   addQuote() {
 
-    const trimmedText = this.quote.text.trim();
+    this.service.addQuote(this.quote)
+      .subscribe(() => {
 
-    // ✅ validation
-    if (!trimmedText) {
-      alert('Please enter a quote');
-      return;
-    }
+        alert('quote Added');
 
-    this.isSubmitting = true;
-
-    const newQuote = {
-      text: trimmedText 
-    };
-
-    this.service.addQuote(newQuote).subscribe({
-      next: () => {
-
-        alert('Quote added successfully');
-
-        this.quote.text = '';
-
-        this.isSubmitting = false;
+        this.quote = {
+          text: '',
+          
+        };
 
         this.router.navigateByUrl('/quotes');
-      },
-      error: (err) => {
-
-        console.error('Error adding quote:', err);
-
-        alert(
-          `Status: ${err.status}\n` +
-          `Error: ${JSON.stringify(err.error)}`
-        );
-
-        this.isSubmitting = false;
-      }
-    });
+      });
   }
 }
